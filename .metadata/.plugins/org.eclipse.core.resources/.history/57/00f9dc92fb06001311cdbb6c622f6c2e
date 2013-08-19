@@ -1,0 +1,14 @@
+program Test13
+{
+
+	int m(int i) {
+		print(i);
+		return 2;
+	}
+	
+	void main() A x; {
+		print(m(3));
+	
+	}
+
+}

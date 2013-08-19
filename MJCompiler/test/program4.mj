@@ -1,0 +1,14 @@
+program Test4
+
+{
+
+	void test(int a, int b) {
+	
+	}
+	
+	void main()  {
+	
+		Test(3 3);
+	
+	}
+}

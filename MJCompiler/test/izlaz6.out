@@ -1,0 +1,64 @@
+INFO  2013-08-17 08:10:49,601 [main][MJParser.java:668] : Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program6.mj
+INFO  2013-08-17 08:10:49,618 [main][MJParser.java:640] : #2 program
+INFO  2013-08-17 08:10:49,619 [main][MJParser.java:640] : #44 Test6
+INFO  2013-08-17 08:10:49,619 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:49,619 [main][MJParser.java:2746] : Pocetak programa Test6 na liniji 1
+INFO  2013-08-17 08:10:49,621 [main][MJParser.java:640] : #7 void
+INFO  2013-08-17 08:10:49,621 [main][MJParser.java:640] : #44 test
+INFO  2013-08-17 08:10:49,621 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:49,624 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:49,624 [main][MJParser.java:640] : #44 x
+INFO  2013-08-17 08:10:49,624 [main][MJParser.java:640] : #44 y
+INFO  2013-08-17 08:10:49,625 [main][MJParser.java:640] : #41 ,
+INFO  2013-08-17 08:10:49,625 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:49,625 [main][MJParser.java:640] : #44 a
+INFO  2013-08-17 08:10:49,626 [main][MJParser.java:640] : #41 ,
+INFO  2013-08-17 08:10:49,630 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:49,630 [main][MJParser.java:640] : #44 char
+INFO  2013-08-17 08:10:49,630 [main][MJParser.java:640] : #44 c
+INFO  2013-08-17 08:10:49,630 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:49,631 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:49,631 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:49,631 [main][MJParser.java:640] : #7 void
+DEBUG 2013-08-17 08:10:49,631 [main][MJParser.java:1984] : Uspesan oporavak od greske na liniji 5 u formalnim parametrima do )
+INFO  2013-08-17 08:10:49,631 [main][MJParser.java:640] : #44 main
+INFO  2013-08-17 08:10:49,632 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:49,632 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:49,632 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:49,632 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:49,632 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2780] : Broj globalnih prostih promenjivih:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2781] : Broj globalnih nizova:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2782] : Broj globalnih konstanti:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2783] : Broj unutrasnjih klasa:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2784] : Broj iskaza u main-u:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2785] : Broj poziva metoda u main-u:0
+INFO  2013-08-17 08:10:49,633 [main][MJParser.java:2786] : Broj blokova naredbi:0
+INFO  2013-08-17 08:10:49,634 [main][MJParser.java:2787] : Broj funkcija glavnog programa:2
+INFO  2013-08-17 08:10:49,634 [main][MJParser.java:2788] : Broj funkcija unutrasnjih klasa:0
+INFO  2013-08-17 08:10:49,634 [main][MJParser.java:2789] : Broj naredbi kreiranja instanci unutrasnjih klasa:0
+INFO  2013-08-17 08:10:49,634 [main][MJParser.java:2790] : Broj pristupa clanovima natklase preko kljucne reci super:0
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type string: , -1, -1 
+Type bool: , -1, -1 
+Prog Test6: notype, 0, 1 
+   Meth test: notype, 0, 0 
+      Var a: int, 0, 1 
+
+   Meth main: notype, 5, 0 
+
+
+

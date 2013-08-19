@@ -1,0 +1,176 @@
+INFO  13:46:49,071 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  13:46:49,090 - #2 program
+INFO  13:46:49,090 - #44 ProgramC
+INFO  13:46:49,090 - #4 class
+INFO  13:46:49,091 - #44 A
+INFO  13:46:49,091 - #34 {
+INFO  13:46:49,091 - #44 int
+INFO  13:46:49,091 - #44 x
+INFO  13:46:49,091 - #36 [
+INFO  13:46:49,091 - #37 ]
+INFO  13:46:49,091 - #41 ,
+INFO  13:46:49,092 - #44 y
+INFO  13:46:49,092 - #36 [
+INFO  13:46:49,092 - #37 ]
+INFO  13:46:49,092 - #38 ;
+INFO  13:46:49,092 - #35 }
+INFO  13:46:49,092 - #3 const
+INFO  13:46:49,093 - #44 int
+INFO  13:46:49,093 - #44 pi
+INFO  13:46:49,093 - #16 =
+INFO  13:46:49,093 - #43 3
+INFO  13:46:49,093 - #41 ,
+INFO  13:46:49,094 - #44 e
+INFO  13:46:49,094 - #16 =
+INFO  13:46:49,094 - #43 2
+INFO  13:46:49,094 - #38 ;
+INFO  13:46:49,094 - #44 int
+INFO  13:46:49,094 - #44 a
+INFO  13:46:49,094 - #38 ;
+INFO  13:46:49,096 - #4 class
+INFO  13:46:49,096 - #44 B
+INFO  13:46:49,096 - #5 extends
+INFO  13:46:49,096 - #44 A
+INFO  13:46:49,096 - #34 {
+INFO  13:46:49,097 - #44 int
+INFO  13:46:49,097 - #44 i
+INFO  13:46:49,097 - #38 ;
+INFO  13:46:49,097 - #44 int
+INFO  13:46:49,097 - #44 z
+INFO  13:46:49,097 - #36 [
+INFO  13:46:49,097 - #37 ]
+INFO  13:46:49,098 - #38 ;
+INFO  13:46:49,098 - #44 int
+INFO  13:46:49,098 - #44 getValue
+INFO  13:46:49,098 - #39 (
+INFO  13:46:49,098 - #44 int
+INFO  13:46:49,098 - #44 a
+INFO  13:46:49,098 - #40 )
+INFO  13:46:49,099 - #44 int
+INFO  13:46:49,099 - #44 b
+INFO  13:46:49,099 - #38 ;
+INFO  13:46:49,099 - #44 bool
+INFO  13:46:49,099 - #44 c
+INFO  13:46:49,099 - #38 ;
+INFO  13:46:49,099 - #34 {
+INFO  13:46:49,100 - #6 return
+INFO  13:46:49,100 - #9 this
+INFO  13:46:49,100 - #42 .
+INFO  13:46:49,100 - #44 i
+INFO  13:46:49,100 - #17 +
+INFO  13:46:49,100 - Koriscenje polja i na liniji 12
+INFO  13:46:49,100 - #9 this
+INFO  13:46:49,101 - #42 .
+INFO  13:46:49,101 - #44 x
+INFO  13:46:49,101 - #36 [
+INFO  13:46:49,101 - Koriscenje polja x na liniji 12
+INFO  13:46:49,101 - #43 0
+INFO  13:46:49,101 - #37 ]
+INFO  13:46:49,101 - #17 +
+INFO  13:46:49,101 - #44 a
+INFO  13:46:49,102 - #38 ;
+INFO  13:46:49,102 - Koriscenje identifikatora a na liniji 12
+INFO  13:46:49,102 - #35 }
+INFO  13:46:49,102 - #35 }
+INFO  13:46:49,102 - #4 class
+INFO  13:46:49,102 - #44 C
+INFO  13:46:49,102 - #5 extends
+INFO  13:46:49,102 - #44 B
+INFO  13:46:49,103 - #34 {
+INFO  13:46:49,103 - #44 A
+INFO  13:46:49,103 - #44 theA
+INFO  13:46:49,103 - #38 ;
+INFO  13:46:49,103 - #44 string
+INFO  13:46:49,103 - #44 a
+INFO  13:46:49,103 - #38 ;
+INFO  13:46:49,103 - #44 int
+INFO  13:46:49,104 - #44 getValue
+INFO  13:46:49,104 - #39 (
+INFO  13:46:49,104 - #44 int
+INFO  13:46:49,104 - #44 a
+INFO  13:46:49,104 - #40 )
+INFO  13:46:49,104 - #34 {
+INFO  13:46:49,104 - #6 return
+INFO  13:46:49,104 - #10 super
+INFO  13:46:49,105 - #42 .
+INFO  13:46:49,105 - #44 getValue
+INFO  13:46:49,105 - #39 (
+INFO  13:46:49,105 - Koriscenje polja super.getValue na liniji 19
+INFO  13:46:49,105 - #44 a
+INFO  13:46:49,105 - #40 )
+INFO  13:46:49,105 - Koriscenje identifikatora a na liniji 19
+INFO  13:46:49,105 - #17 +
+INFO  13:46:49,105 - #44 theA
+INFO  13:46:49,106 - #38 ;
+INFO  13:46:49,106 - Koriscenje identifikatora theA na liniji 19
+INFO  13:46:49,106 - #35 }
+INFO  13:46:49,106 - #35 }
+INFO  13:46:49,106 - #34 {
+INFO  13:46:49,106 - #44 int
+INFO  13:46:49,106 - #44 TEST
+INFO  13:46:49,106 - #39 (
+INFO  13:46:49,107 - #40 )
+INFO  13:46:49,107 - #34 {
+INFO  13:46:49,107 - #6 return
+INFO  13:46:49,107 - #43 2
+INFO  13:46:49,107 - #38 ;
+INFO  13:46:49,107 - #35 }
+INFO  13:46:49,107 - #7 void
+INFO  13:46:49,107 - #44 main
+INFO  13:46:49,108 - #39 (
+INFO  13:46:49,108 - #40 )
+INFO  13:46:49,108 - #44 A
+INFO  13:46:49,108 - #44 a
+INFO  13:46:49,108 - #38 ;
+INFO  13:46:49,108 - #44 B
+INFO  13:46:49,108 - #44 b
+INFO  13:46:49,108 - #38 ;
+INFO  13:46:49,109 - #44 C
+INFO  13:46:49,109 - #44 c
+INFO  13:46:49,109 - #38 ;
+INFO  13:46:49,109 - #44 int
+INFO  13:46:49,109 - #44 i
+INFO  13:46:49,109 - #38 ;
+INFO  13:46:49,109 - #44 int
+INFO  13:46:49,109 - #44 x
+INFO  13:46:49,109 - #36 [
+INFO  13:46:49,109 - #37 ]
+INFO  13:46:49,110 - #38 ;
+INFO  13:46:49,110 - #44 char
+INFO  13:46:49,110 - #44 y
+INFO  13:46:49,110 - #36 [
+INFO  13:46:49,110 - #37 ]
+INFO  13:46:49,110 - #38 ;
+INFO  13:46:49,110 - #34 {
+INFO  13:46:49,110 - #13 while
+INFO  13:46:49,110 - #39 (
+INFO  13:46:49,110 - #44 i
+INFO  13:46:49,110 - #30 <
+INFO  13:46:49,110 - Koriscenje identifikatora i na liniji 32
+INFO  13:46:49,111 - #43 10
+INFO  13:46:49,111 - #40 )
+INFO  13:46:49,111 - #34 {
+INFO  13:46:49,111 - #44 i
+INFO  13:46:49,111 - #22 ++
+INFO  13:46:49,111 - Koriscenje identifikatora i na liniji 34
+INFO  13:46:49,111 - #38 ;
+INFO  13:46:49,111 - #26 print
+INFO  13:46:49,111 - #39 (
+INFO  13:46:49,111 - #44 i
+INFO  13:46:49,112 - #40 )
+INFO  13:46:49,112 - Koriscenje identifikatora i na liniji 35
+INFO  13:46:49,112 - #38 ;
+INFO  13:46:49,112 - #35 }
+INFO  13:46:49,112 - #35 }
+INFO  13:46:49,112 - #35 }
+INFO  13:46:49,112 - Broj globalnih prostih promenjivih:1
+INFO  13:46:49,112 - Broj globalnih nizova:0
+INFO  13:46:49,113 - Broj globalnih konstanti:2
+INFO  13:46:49,113 - Broj unutrasnjih klasa:3
+INFO  13:46:49,113 - Broj iskaza u main-u:3
+INFO  13:46:49,113 - Broj poziva metoda u main-u:0
+INFO  13:46:49,113 - Broj blokova naredbi:1
+INFO  13:46:49,113 - Broj funkcija glavnog programa:2
+INFO  13:46:49,113 - Broj funkcija unutrasnjih klasa:2
+INFO  13:46:49,116 - Generating bytecode file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.obj
+INFO  13:46:49,116 - Parsiranje uspesno zavrseno!

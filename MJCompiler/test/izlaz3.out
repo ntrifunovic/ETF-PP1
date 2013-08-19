@@ -1,0 +1,71 @@
+INFO  2013-08-17 08:10:48,259 [main][MJParser.java:668] : Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program3.mj
+INFO  2013-08-17 08:10:48,281 [main][MJParser.java:640] : #2 program
+INFO  2013-08-17 08:10:48,281 [main][MJParser.java:640] : #44 Test3
+INFO  2013-08-17 08:10:48,282 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:48,282 [main][MJParser.java:2746] : Pocetak programa Test3 na liniji 1
+INFO  2013-08-17 08:10:48,285 [main][MJParser.java:640] : #7 void
+INFO  2013-08-17 08:10:48,285 [main][MJParser.java:640] : #44 main
+INFO  2013-08-17 08:10:48,285 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:48,286 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #44 a
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #44 b
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:48,287 [main][MJParser.java:640] : #44 bool
+INFO  2013-08-17 08:10:48,289 [main][MJParser.java:640] : #44 x
+INFO  2013-08-17 08:10:48,289 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:48,289 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:640] : #44 a
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:640] : #16 =
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:948] : Koriscenje identifikatora a na liniji 6
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:640] : #44 b
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:640] : #17 +
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:948] : Koriscenje identifikatora b na liniji 6
+INFO  2013-08-17 08:10:48,290 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:48,291 [main][MJParser.java:640] : #44 b
+INFO  2013-08-17 08:10:48,291 [main][MJParser.java:640] : #16 =
+INFO  2013-08-17 08:10:48,291 [main][MJParser.java:640] : #17 +
+DEBUG 2013-08-17 08:10:48,292 [main][MJParser.java:1601] : Uspesan oporavak od greske na liniji 6
+INFO  2013-08-17 08:10:48,292 [main][MJParser.java:948] : Koriscenje identifikatora b na liniji 7
+INFO  2013-08-17 08:10:48,292 [main][MJParser.java:640] : #44 x
+INFO  2013-08-17 08:10:48,292 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:48,292 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:48,292 [main][MJParser.java:640] : #35 }
+DEBUG 2013-08-17 08:10:48,292 [main][MJParser.java:1601] : Uspesan oporavak od greske na liniji 7
+INFO  2013-08-17 08:10:48,293 [main][MJParser.java:2780] : Broj globalnih prostih promenjivih:0
+INFO  2013-08-17 08:10:48,293 [main][MJParser.java:2781] : Broj globalnih nizova:0
+INFO  2013-08-17 08:10:48,293 [main][MJParser.java:2782] : Broj globalnih konstanti:0
+INFO  2013-08-17 08:10:48,293 [main][MJParser.java:2783] : Broj unutrasnjih klasa:0
+INFO  2013-08-17 08:10:48,293 [main][MJParser.java:2784] : Broj iskaza u main-u:0
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2785] : Broj poziva metoda u main-u:0
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2786] : Broj blokova naredbi:0
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2787] : Broj funkcija glavnog programa:1
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2788] : Broj funkcija unutrasnjih klasa:0
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2789] : Broj naredbi kreiranja instanci unutrasnjih klasa:0
+INFO  2013-08-17 08:10:48,294 [main][MJParser.java:2790] : Broj pristupa clanovima natklase preko kljucne reci super:0
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type string: , -1, -1 
+Type bool: , -1, -1 
+Prog Test3: notype, 0, 1 
+   Meth main: notype, 0, 0 
+      Var a: int, 0, 1 
+      Var b: int, 1, 1 
+      Var x: , 2, 1 
+
+
+

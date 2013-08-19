@@ -1,0 +1,19 @@
+#!/bin/sh  
+
+red='\x1B[0;31m'
+brown='\x1B[0;33m'  
+NC='\x1B[0m' # No Color
+
+echo
+echo  ${brown} PARSER ${red}
+echo
+
+java -jar lib/java-cup-11a.jar -destdir src/rs/ac/bg/etf/pp1/ -parser MJParser spec/mjparser.cup 
+
+echo
+echo  ${brown} LEXER ${red}
+echo
+
+java -jar lib/JFlex.jar -d src/rs/ac/bg/etf/pp1/ spec/mjlexer.flex 
+
+ echo ${NC}

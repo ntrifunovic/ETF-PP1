@@ -1,0 +1,11 @@
+program ProgramC
+	int a GRESKA;
+      
+      
+	  
+	{
+		void main()
+		{
+		
+		}
+	}

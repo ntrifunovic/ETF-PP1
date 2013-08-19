@@ -1,0 +1,20 @@
+program Test10
+
+void test() {
+ print('a');
+}
+
+{
+	void main() int i; char c; {
+		
+		v = new A;
+		v.x = 3;
+		
+		print(v.x);
+		
+		test(3);
+		test();
+		
+	}
+
+}

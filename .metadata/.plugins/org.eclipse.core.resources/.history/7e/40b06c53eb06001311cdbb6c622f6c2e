@@ -1,0 +1,19 @@
+program Test10
+
+int x
+
+const string x = "TEST";
+
+{
+	void main() int i; {
+		i = 0;
+		
+		while(i < 4) {
+			print(x[i]);
+			i++;
+		}
+		
+	
+	}
+
+}

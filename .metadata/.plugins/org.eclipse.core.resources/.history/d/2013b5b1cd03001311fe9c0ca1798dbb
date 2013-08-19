@@ -1,0 +1,286 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.*;
+
+
+parser code {:
+	
+	int printCallCount = 0;
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+init with {:
+	Tab.init(); // Universe scope
+:}
+
+action code {:
+	Obj currentMethod = null;
+	boolean returnFound = false;
+:}
+
+terminal PROG, CONST, CLASS, RETURN, PRINT, VOID ;
+terminal IF, ELSE ;
+terminal PLUS, EQUAL ;
+terminal LBRACE, RBRACE, LBRACK, RBRACK, SEMI, LPAREN, RPAREN, COMMA ;
+terminal Integer NUMBER ;
+terminal String IDENT ;
+
+non terminal Program;
+non terminal Decl, DeclList, VarDecl, ConstDecl, ClassDecl;
+non terminal MethodDeclList, MethodDecl;
+non terminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
+non terminal StatementList, Statement, Addop;
+non terminal Unmatched, Matched;
+
+non terminal Obj ProgName, Designator;
+non terminal Struct Type, Term, Expr, Factor;
+
+Program ::= PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE 
+			{:
+				Tab.chainLocalSymbols(p);
+				Tab.closeScope(); 
+			:}
+			;
+
+ProgName ::= IDENT:pName
+			{:  
+				RESULT = Tab.insert(Obj.Prog, pName, Tab.noType);
+				Tab.openScope(); 
+			:}
+			;
+
+DeclList ::= DeclList Decl  
+				|
+				/* epsilon */ 
+				;
+				
+Decl ::= ConstDecl
+			|
+		 VarDecl
+			|
+		 ClassDecl
+		 ;
+
+ConstDecl ::= CONST Type:varType IDENT EQUAL ;
+
+VarDecl ::= Type:varType IDENT:varName SEMI 
+			{:
+				parser.report_info("Deklarisana promenljiva "+ varName+" na liniji "+ varNameleft, null);
+				Tab.insert(Obj.Var, varName, varType);  
+			:}
+			;
+
+Type ::= IDENT:typeName 
+		{:
+			Obj typeNode = Tab.find(typeName);
+			if (typeNode == Tab.noObj) {
+				parser.report_error("Nije pronadjen tip " + typeName + " u tabeli simbola", typeName);
+				RESULT = Tab.noType;
+			}
+			else {
+				if (Obj.Type == typeNode.getKind()) {
+					RESULT = typeNode.getType();
+				}
+				else {
+					parser.report_error("Greska na liniji" + typeNameleft+ ": Ime " + typeName + " ne predstavlja tip ", null);
+					RESULT = Tab.noType;
+				}
+			}
+		:}
+		;
+
+MethodDeclList ::= MethodDeclList MethodDecl
+					|
+					/* epsilon */
+					;
+
+MethodDecl ::= Type:retType IDENT:methName
+			   {: 
+			   		currentMethod = Tab.insert(Obj.Meth, methName, retType);
+			   		Tab.openScope();
+			   		parser.report_info("Obradjuje se funkcija " + methName + " na liniji " + methNameleft, null);
+			   :}
+			   LPAREN FormPars RPAREN DeclList LBRACE StatementList RBRACE 
+			   {:
+			   	 if (!returnFound && retType != Tab.noType)
+			   	 	parser.report_error("Semanticka greska na liniji " + methNameleft + ": funcija " + methName + " nema return iskaz!", null);
+			   	 
+			   	 Tab.chainLocalSymbols(currentMethod);
+			   	 Tab.closeScope();
+					 
+					 returnFound = false;
+					 currentMethod = null;
+			   :}
+			   ;
+
+
+FormPars ::= FormalParamList
+				 |
+			 /* epsilon */ 
+			 ;
+
+FormalParamList ::= FormalParamList COMMA FormalParamDecl
+					|
+					FormalParamDecl
+					;
+					
+FormalParamDecl ::= Type IDENT ;
+
+StatementList ::= StatementList Statement 
+					|
+				  /* epsilon */
+				  ;
+
+Statement ::= Matched 
+				|
+			  Unmatched ;
+
+Unmatched ::= IF Expr Statement
+				 |
+			  IF Expr Matched ELSE Unmatched;
+	
+				  
+Matched ::= Designator:dest EQUAL Expr:e SEMI 
+			{:
+				if (!e.assignableTo(dest.getType()))
+					parser.report_error("Greska na liniji " + destleft + " : " + " nekompatibilni tipovi u dodeli vrednosti ", null);
+			:}
+				|
+			Designator EQUAL error SEMI
+			{: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
+				|
+			PRINT LPAREN Expr RPAREN SEMI 
+			{: parser.printCallCount++; :}
+				|
+			RETURN Expr:t SEMI
+			{:
+				returnFound = true;
+				Struct currMethType = currentMethod.getType();
+				 if (!currMethType.compatibleWith(t)) {
+				 	parser.report_error("Greska na liniji " + tleft + " : " + "tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije " + currentMethod.getName(), null);
+				 }			  	 
+			:}
+			 	|
+			RETURN SEMI
+				| 
+			IF Expr Matched ELSE Matched
+				|
+			Designator:func LPAREN ActualPars RPAREN SEMI
+		   	{:
+		         if (Obj.Meth == func.getKind()) { 
+		   	   	    parser.report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + funcleft, null);
+		   	   	    RESULT = func.getType();
+		   	     } 
+		   	     else {
+		   	   	    parser.report_error("Greska na liniji " + funcleft+" : ime " + func.getName() + " nije funkcija!", null);
+		   	   	    RESULT = Tab.noType;
+		   	     } 
+		    :}
+			;
+			  
+Expr ::= Expr:te Addop Term:t
+		 {:
+		 if (te.equals(t) && te == Tab.intType)
+		 	RESULT = te;
+		 else {
+		 	parser.report_error("Greska na liniji "+ teleft+" : nekompatibilni tipovi u izrazu za sabiranje.", null);
+		 	RESULT = Tab.noType;
+		 } 
+		 :}
+		 	|
+		 Term:t
+		 {: RESULT = t; :}
+		 ;
+
+Term ::= Factor:t 
+		 {:
+			RESULT = t;
+	   	 :};
+
+Factor ::= 	NUMBER
+		 	{: RESULT = Tab.intType; :} 
+				|
+		   	Designator:d
+		   	{: RESULT = d.getType(); :}
+		    	|
+		   	Designator:func LPAREN ActualPars RPAREN
+		   	{:
+		       if (Obj.Meth == func.getKind()) { 
+		   	   	   parser.report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + funcleft, null);
+		   	   	   RESULT = func.getType();
+		   	   } else {
+		   	   	   parser.report_error("Greska na liniji " + funcleft+" : ime " + func.getName() + " nije funkcija!", null);
+		   	   	   RESULT = Tab.noType;
+		   	   }
+		   	:}
+		   	;
+
+ActualPars ::= ActualParamList 
+					| 
+			   /* epsilon */ 
+			   ;
+			   
+ActualParamList ::= ActualParamList COMMA Expr
+						|
+					Expr
+					;
+
+Designator ::= 	IDENT:name
+				{:
+					Obj obj = Tab.find(name);
+					if (obj == Tab.noObj) { 
+						parser.report_error("Greska na liniji " + nameleft+ " : ime "+name+" nije deklarisano! ", null);
+					}
+					RESULT = obj;
+				:};
+
+Addop ::= PLUS ;
+ 
+			  

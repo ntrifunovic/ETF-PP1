@@ -1,0 +1,190 @@
+INFO  23:53:13,299 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  23:53:13,326 - #2 program
+INFO  23:53:13,326 - #44 ProgramC
+INFO  23:53:13,326 - #4 class
+INFO  23:53:13,326 - #44 A
+INFO  23:53:13,326 - #34 {
+INFO  23:53:13,327 - #44 int
+INFO  23:53:13,327 - #44 x
+INFO  23:53:13,327 - #36 [
+INFO  23:53:13,327 - #37 ]
+INFO  23:53:13,327 - #41 ,
+INFO  23:53:13,328 - #44 y
+INFO  23:53:13,328 - #36 [
+INFO  23:53:13,328 - #37 ]
+INFO  23:53:13,328 - #38 ;
+INFO  23:53:13,328 - #35 }
+INFO  23:53:13,328 - #3 const
+INFO  23:53:13,329 - #44 int
+INFO  23:53:13,329 - #44 pi
+INFO  23:53:13,329 - #16 =
+INFO  23:53:13,329 - #43 3
+INFO  23:53:13,329 - #41 ,
+INFO  23:53:13,329 - #44 e
+INFO  23:53:13,330 - #16 =
+INFO  23:53:13,330 - #43 2
+INFO  23:53:13,330 - #38 ;
+INFO  23:53:13,330 - #44 int
+INFO  23:53:13,330 - #44 a
+INFO  23:53:13,330 - #41 ,
+INFO  23:53:13,332 - #44 b
+INFO  23:53:13,332 - #38 ;
+INFO  23:53:13,332 - #4 class
+INFO  23:53:13,332 - #44 B
+INFO  23:53:13,333 - #5 extends
+INFO  23:53:13,333 - #44 A
+INFO  23:53:13,333 - #34 {
+INFO  23:53:13,333 - #44 int
+INFO  23:53:13,333 - #44 i
+INFO  23:53:13,333 - #38 ;
+INFO  23:53:13,333 - #44 int
+INFO  23:53:13,334 - #44 z
+INFO  23:53:13,334 - #36 [
+INFO  23:53:13,334 - #37 ]
+INFO  23:53:13,334 - #38 ;
+INFO  23:53:13,334 - #44 int
+INFO  23:53:13,334 - #44 getValue
+INFO  23:53:13,334 - #39 (
+INFO  23:53:13,334 - #44 int
+INFO  23:53:13,335 - #44 a
+INFO  23:53:13,335 - #40 )
+INFO  23:53:13,335 - #44 int
+INFO  23:53:13,335 - #44 b
+INFO  23:53:13,335 - #38 ;
+INFO  23:53:13,335 - #44 bool
+INFO  23:53:13,335 - #44 c
+INFO  23:53:13,336 - #38 ;
+INFO  23:53:13,336 - #34 {
+INFO  23:53:13,336 - #6 return
+INFO  23:53:13,336 - #9 this
+INFO  23:53:13,336 - #42 .
+INFO  23:53:13,336 - #44 i
+INFO  23:53:13,336 - #17 +
+INFO  23:53:13,336 - Koriscenje polja i na liniji 12
+INFO  23:53:13,336 - #9 this
+INFO  23:53:13,337 - #42 .
+INFO  23:53:13,337 - #44 x
+INFO  23:53:13,337 - #36 [
+INFO  23:53:13,337 - Koriscenje polja x na liniji 12
+INFO  23:53:13,337 - #43 0
+INFO  23:53:13,337 - #37 ]
+INFO  23:53:13,337 - #17 +
+INFO  23:53:13,337 - #44 a
+INFO  23:53:13,338 - #38 ;
+INFO  23:53:13,338 - Koriscenje identifikatora a na liniji 12
+INFO  23:53:13,338 - #35 }
+INFO  23:53:13,338 - #35 }
+INFO  23:53:13,338 - #4 class
+INFO  23:53:13,338 - #44 C
+INFO  23:53:13,338 - #5 extends
+INFO  23:53:13,339 - #44 B
+INFO  23:53:13,339 - #34 {
+INFO  23:53:13,339 - #44 A
+INFO  23:53:13,339 - #44 theA
+INFO  23:53:13,339 - #38 ;
+INFO  23:53:13,339 - #44 string
+INFO  23:53:13,339 - #44 a
+INFO  23:53:13,340 - #38 ;
+INFO  23:53:13,340 - #44 int
+INFO  23:53:13,340 - #44 getValue
+INFO  23:53:13,340 - #39 (
+INFO  23:53:13,340 - #44 int
+INFO  23:53:13,340 - #44 a
+INFO  23:53:13,340 - #40 )
+INFO  23:53:13,341 - #34 {
+INFO  23:53:13,341 - #6 return
+INFO  23:53:13,341 - #10 super
+INFO  23:53:13,341 - #42 .
+INFO  23:53:13,341 - #44 getValue
+INFO  23:53:13,341 - #39 (
+INFO  23:53:13,341 - Koriscenje polja super.getValue na liniji 19
+INFO  23:53:13,341 - #44 a
+INFO  23:53:13,341 - #40 )
+INFO  23:53:13,342 - Koriscenje identifikatora a na liniji 19
+INFO  23:53:13,342 - #17 +
+INFO  23:53:13,342 - #44 theA
+INFO  23:53:13,342 - #38 ;
+INFO  23:53:13,342 - Koriscenje identifikatora theA na liniji 19
+INFO  23:53:13,342 - #35 }
+INFO  23:53:13,342 - #35 }
+INFO  23:53:13,343 - #3 const
+INFO  23:53:13,343 - #44 string
+INFO  23:53:13,343 - #44 st
+INFO  23:53:13,343 - #16 =
+INFO  23:53:13,343 - #45 abc
+INFO  23:53:13,343 - #38 ;
+INFO  23:53:13,344 - #34 {
+INFO  23:53:13,344 - #44 int
+INFO  23:53:13,344 - #44 sum
+INFO  23:53:13,344 - #39 (
+INFO  23:53:13,345 - #44 int
+INFO  23:53:13,345 - #44 x
+INFO  23:53:13,345 - #41 ,
+INFO  23:53:13,345 - #44 int
+INFO  23:53:13,345 - #44 y
+INFO  23:53:13,345 - #40 )
+INFO  23:53:13,345 - #34 {
+INFO  23:53:13,345 - #6 return
+INFO  23:53:13,346 - #44 x
+INFO  23:53:13,346 - #17 +
+INFO  23:53:13,346 - Koriscenje identifikatora x na liniji 29
+INFO  23:53:13,346 - #44 y
+INFO  23:53:13,346 - #38 ;
+INFO  23:53:13,346 - Koriscenje identifikatora y na liniji 29
+INFO  23:53:13,346 - #35 }
+INFO  23:53:13,347 - #7 void
+INFO  23:53:13,347 - #44 main
+INFO  23:53:13,347 - #39 (
+INFO  23:53:13,347 - #40 )
+INFO  23:53:13,347 - #44 A
+INFO  23:53:13,347 - #44 a
+INFO  23:53:13,348 - #38 ;
+INFO  23:53:13,348 - #44 B
+INFO  23:53:13,348 - #44 b
+INFO  23:53:13,348 - #38 ;
+INFO  23:53:13,348 - #44 C
+INFO  23:53:13,348 - #44 c
+INFO  23:53:13,348 - #38 ;
+INFO  23:53:13,349 - #44 int
+INFO  23:53:13,349 - #44 i
+INFO  23:53:13,349 - #38 ;
+INFO  23:53:13,349 - #44 int
+INFO  23:53:13,349 - #44 x
+INFO  23:53:13,349 - #36 [
+INFO  23:53:13,349 - #37 ]
+INFO  23:53:13,349 - #38 ;
+INFO  23:53:13,350 - #44 char
+INFO  23:53:13,350 - #44 y
+INFO  23:53:13,350 - #36 [
+INFO  23:53:13,350 - #37 ]
+INFO  23:53:13,350 - #38 ;
+INFO  23:53:13,350 - #34 {
+INFO  23:53:13,350 - #44 b
+INFO  23:53:13,351 - #16 =
+INFO  23:53:13,351 - Koriscenje identifikatora b na liniji 34
+INFO  23:53:13,351 - #8 new
+INFO  23:53:13,351 - #44 C
+INFO  23:53:13,351 - #38 ;
+INFO  23:53:13,351 - #44 b
+INFO  23:53:13,351 - #42 .
+INFO  23:53:13,352 - Koriscenje identifikatora b na liniji 35
+INFO  23:53:13,352 - #44 getValue
+INFO  23:53:13,352 - #39 (
+INFO  23:53:13,352 - #43 0
+INFO  23:53:13,352 - #40 )
+INFO  23:53:13,352 - #38 ;
+ERROR 23:53:13,352 - 
+Sintaksna greska na liniji 35
+INFO  23:53:13,353 - #35 }
+INFO  23:53:13,353 - #35 }
+DEBUG 23:53:13,354 - Uspesan oporavak od greske na liniji 35
+INFO  23:53:13,354 - Broj globalnih prostih promenjivih:2
+INFO  23:53:13,354 - Broj globalnih nizova:1
+INFO  23:53:13,354 - Broj globalnih konstanti:3
+INFO  23:53:13,355 - Broj unutrasnjih klasa:3
+INFO  23:53:13,355 - Broj iskaza u main-u:1
+INFO  23:53:13,355 - Broj poziva metoda u main-u:0
+INFO  23:53:13,355 - Broj blokova naredbi:0
+INFO  23:53:13,355 - Broj funkcija glavnog programa:2
+INFO  23:53:13,355 - Broj funkcija unutrasnjih klasa:2
+ERROR 23:53:13,358 - Parsiranje NIJE uspesno zavrseno!

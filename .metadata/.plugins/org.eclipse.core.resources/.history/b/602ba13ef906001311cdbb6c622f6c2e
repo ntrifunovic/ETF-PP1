@@ -1,0 +1,28 @@
+program Test11
+
+class A {
+	void m() {
+		print('A');
+	}
+}
+
+class B extends A {
+	void m() {
+		print('B');
+	}
+}
+
+void m() {
+		print('B');
+	}
+
+{
+	void main() A x; {
+		
+		x = new B;
+		
+		x.m();
+	
+	}
+
+}

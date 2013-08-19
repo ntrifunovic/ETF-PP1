@@ -1,0 +1,209 @@
+INFO  14:50:10,110 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  14:50:10,146 - #2 program
+INFO  14:50:10,146 - #44 ProgramC
+INFO  14:50:10,146 - #4 class
+INFO  14:50:10,146 - #44 A
+INFO  14:50:10,146 - #34 {
+INFO  14:50:10,146 - #44 int
+INFO  14:50:10,147 - #44 x
+INFO  14:50:10,147 - #36 [
+INFO  14:50:10,147 - #37 ]
+INFO  14:50:10,147 - #41 ,
+INFO  14:50:10,147 - #44 y
+INFO  14:50:10,147 - #36 [
+INFO  14:50:10,147 - #37 ]
+INFO  14:50:10,147 - #38 ;
+INFO  14:50:10,147 - #35 }
+INFO  14:50:10,147 - #3 const
+INFO  14:50:10,148 - #44 int
+INFO  14:50:10,148 - #44 pi
+INFO  14:50:10,148 - #16 =
+INFO  14:50:10,148 - #43 3
+INFO  14:50:10,148 - #41 ,
+INFO  14:50:10,148 - #44 e
+INFO  14:50:10,148 - #16 =
+INFO  14:50:10,148 - #43 2
+INFO  14:50:10,148 - #38 ;
+INFO  14:50:10,149 - #44 int
+INFO  14:50:10,149 - #44 a
+INFO  14:50:10,149 - #41 ,
+INFO  14:50:10,150 - #44 b
+INFO  14:50:10,150 - #38 ;
+INFO  14:50:10,150 - #4 class
+INFO  14:50:10,150 - #44 B
+INFO  14:50:10,150 - #5 extends
+INFO  14:50:10,150 - #44 A
+INFO  14:50:10,150 - #34 {
+INFO  14:50:10,150 - #44 int
+INFO  14:50:10,151 - #44 i
+INFO  14:50:10,151 - #38 ;
+INFO  14:50:10,151 - #44 int
+INFO  14:50:10,151 - #44 z
+INFO  14:50:10,151 - #36 [
+INFO  14:50:10,151 - #37 ]
+INFO  14:50:10,151 - #38 ;
+INFO  14:50:10,151 - #44 int
+INFO  14:50:10,151 - #44 getValue
+INFO  14:50:10,151 - #39 (
+INFO  14:50:10,151 - #44 int
+INFO  14:50:10,151 - #44 a
+INFO  14:50:10,152 - #40 )
+INFO  14:50:10,152 - #44 int
+INFO  14:50:10,152 - #44 b
+INFO  14:50:10,152 - #38 ;
+INFO  14:50:10,152 - #44 bool
+INFO  14:50:10,152 - #44 c
+INFO  14:50:10,152 - #38 ;
+INFO  14:50:10,152 - #34 {
+INFO  14:50:10,152 - #6 return
+INFO  14:50:10,152 - #9 this
+INFO  14:50:10,153 - #42 .
+INFO  14:50:10,153 - #44 i
+INFO  14:50:10,153 - #17 +
+INFO  14:50:10,153 - Koriscenje polja i na liniji 12
+INFO  14:50:10,153 - #9 this
+INFO  14:50:10,153 - #42 .
+INFO  14:50:10,153 - #44 x
+INFO  14:50:10,153 - #36 [
+INFO  14:50:10,153 - Koriscenje polja x na liniji 12
+INFO  14:50:10,153 - #43 0
+INFO  14:50:10,153 - #37 ]
+INFO  14:50:10,154 - #17 +
+INFO  14:50:10,154 - #44 a
+INFO  14:50:10,154 - #38 ;
+INFO  14:50:10,154 - Koriscenje identifikatora a na liniji 12
+INFO  14:50:10,154 - #35 }
+INFO  14:50:10,154 - #35 }
+INFO  14:50:10,154 - #4 class
+INFO  14:50:10,154 - #44 C
+INFO  14:50:10,154 - #5 extends
+INFO  14:50:10,154 - #44 B
+INFO  14:50:10,155 - #34 {
+INFO  14:50:10,155 - #44 A
+INFO  14:50:10,155 - #44 theA
+INFO  14:50:10,155 - #38 ;
+INFO  14:50:10,155 - #44 string
+INFO  14:50:10,155 - #44 a
+INFO  14:50:10,155 - #38 ;
+INFO  14:50:10,155 - #44 int
+INFO  14:50:10,155 - #44 getValue
+INFO  14:50:10,155 - #39 (
+INFO  14:50:10,155 - #44 int
+INFO  14:50:10,156 - #44 a
+INFO  14:50:10,156 - #40 )
+INFO  14:50:10,156 - #34 {
+INFO  14:50:10,156 - #6 return
+INFO  14:50:10,156 - #10 super
+INFO  14:50:10,156 - #42 .
+INFO  14:50:10,156 - #44 getValue
+INFO  14:50:10,156 - #39 (
+INFO  14:50:10,156 - Koriscenje polja super.getValue na liniji 19
+INFO  14:50:10,156 - #44 a
+INFO  14:50:10,156 - #40 )
+INFO  14:50:10,156 - Koriscenje identifikatora a na liniji 19
+INFO  14:50:10,157 - #17 +
+INFO  14:50:10,157 - #44 theA
+INFO  14:50:10,157 - #38 ;
+INFO  14:50:10,157 - Koriscenje identifikatora theA na liniji 19
+INFO  14:50:10,157 - #35 }
+INFO  14:50:10,157 - #35 }
+INFO  14:50:10,157 - #34 {
+INFO  14:50:10,157 - #44 int
+INFO  14:50:10,157 - #44 TEST
+INFO  14:50:10,158 - #39 (
+INFO  14:50:10,158 - #40 )
+INFO  14:50:10,158 - #34 {
+INFO  14:50:10,158 - #6 return
+INFO  14:50:10,158 - #43 2
+INFO  14:50:10,158 - #38 ;
+INFO  14:50:10,158 - #35 }
+INFO  14:50:10,158 - #7 void
+INFO  14:50:10,158 - #44 main
+INFO  14:50:10,158 - #39 (
+INFO  14:50:10,159 - #40 )
+INFO  14:50:10,159 - #44 A
+INFO  14:50:10,159 - #44 a
+INFO  14:50:10,159 - #38 ;
+INFO  14:50:10,159 - #44 B
+INFO  14:50:10,159 - #44 b
+INFO  14:50:10,159 - #38 ;
+INFO  14:50:10,159 - #44 C
+INFO  14:50:10,159 - #44 c
+INFO  14:50:10,159 - #38 ;
+INFO  14:50:10,159 - #44 int
+INFO  14:50:10,159 - #44 i
+INFO  14:50:10,160 - #38 ;
+INFO  14:50:10,160 - #44 int
+INFO  14:50:10,160 - #44 x
+INFO  14:50:10,160 - #36 [
+INFO  14:50:10,160 - #37 ]
+INFO  14:50:10,160 - #38 ;
+INFO  14:50:10,160 - #44 char
+INFO  14:50:10,160 - #44 y
+INFO  14:50:10,160 - #36 [
+INFO  14:50:10,160 - #37 ]
+INFO  14:50:10,160 - #38 ;
+INFO  14:50:10,161 - #34 {
+INFO  14:50:10,161 - #44 x
+INFO  14:50:10,161 - #16 =
+INFO  14:50:10,161 - Koriscenje identifikatora x na liniji 32
+INFO  14:50:10,161 - #8 new
+INFO  14:50:10,161 - #44 int
+INFO  14:50:10,161 - #36 [
+INFO  14:50:10,161 - #43 10
+INFO  14:50:10,161 - #37 ]
+INFO  14:50:10,161 - #38 ;
+INFO  14:50:10,161 - #44 i
+INFO  14:50:10,162 - #16 =
+INFO  14:50:10,162 - Koriscenje identifikatora i na liniji 33
+INFO  14:50:10,162 - #44 len
+INFO  14:50:10,162 - #39 (
+INFO  14:50:10,162 - Koriscenje identifikatora len na liniji 33
+INFO  14:50:10,162 - #44 x
+INFO  14:50:10,162 - #40 )
+INFO  14:50:10,162 - Koriscenje identifikatora x na liniji 33
+INFO  14:50:10,162 - #38 ;
+INFO  14:50:10,162 - #26 print
+INFO  14:50:10,163 - #39 (
+INFO  14:50:10,163 - #44 i
+INFO  14:50:10,163 - #40 )
+INFO  14:50:10,163 - Koriscenje identifikatora i na liniji 34
+INFO  14:50:10,163 - #38 ;
+INFO  14:50:10,163 - #13 while
+INFO  14:50:10,164 - #39 (
+INFO  14:50:10,164 - #47 true
+INFO  14:50:10,164 - #24 &&
+INFO  14:50:10,164 - #44 i
+INFO  14:50:10,164 - #30 <
+INFO  14:50:10,164 - Koriscenje identifikatora i na liniji 36
+INFO  14:50:10,164 - #43 10
+INFO  14:50:10,165 - #40 )
+INFO  14:50:10,165 - #34 {
+INFO  14:50:10,165 - #27 read
+INFO  14:50:10,165 - #39 (
+INFO  14:50:10,165 - #44 i
+INFO  14:50:10,165 - #40 )
+INFO  14:50:10,165 - Koriscenje identifikatora i na liniji 38
+INFO  14:50:10,166 - #38 ;
+INFO  14:50:10,166 - #26 print
+INFO  14:50:10,166 - #39 (
+INFO  14:50:10,166 - #44 i
+INFO  14:50:10,166 - #41 ,
+INFO  14:50:10,166 - Koriscenje identifikatora i na liniji 39
+INFO  14:50:10,166 - #43 20
+INFO  14:50:10,167 - #40 )
+INFO  14:50:10,167 - #38 ;
+INFO  14:50:10,167 - #35 }
+INFO  14:50:10,167 - #35 }
+INFO  14:50:10,167 - #35 }
+INFO  14:50:10,168 - Broj globalnih prostih promenjivih:2
+INFO  14:50:10,168 - Broj globalnih nizova:0
+INFO  14:50:10,168 - Broj globalnih konstanti:2
+INFO  14:50:10,168 - Broj unutrasnjih klasa:3
+INFO  14:50:10,168 - Broj iskaza u main-u:6
+INFO  14:50:10,168 - Broj poziva metoda u main-u:0
+INFO  14:50:10,168 - Broj blokova naredbi:1
+INFO  14:50:10,168 - Broj funkcija glavnog programa:2
+INFO  14:50:10,169 - Broj funkcija unutrasnjih klasa:2
+INFO  14:50:10,171 - Generating bytecode file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.obj
+INFO  14:50:10,172 - Parsiranje uspesno zavrseno!

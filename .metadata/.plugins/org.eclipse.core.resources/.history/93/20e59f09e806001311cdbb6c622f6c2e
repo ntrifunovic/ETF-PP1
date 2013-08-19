@@ -1,0 +1,13 @@
+program Test6
+
+{	
+
+	void test(int x y, int a, int b) {
+	
+	}
+	
+	void main() {
+	
+	
+	}
+}

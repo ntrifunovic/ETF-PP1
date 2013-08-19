@@ -1,0 +1,30 @@
+program Test12
+
+class A {
+	int x;
+	
+	void test(int x) {
+		print(x);
+		print(this.x);
+		print('o');
+		print('k');
+	}
+}
+
+
+A v;
+
+{
+void test(int a, char b) {}
+	void main() int i; char c; {
+		
+		v = new A;
+		v.x = 1;
+		i = 5;
+		
+		v.test(3);
+		
+		test(2, 'b');
+		
+	}
+}

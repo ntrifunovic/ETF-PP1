@@ -1,0 +1,57 @@
+INFO  2013-08-17 08:10:50,430 [main][MJParser.java:668] : Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program8.mj
+INFO  2013-08-17 08:10:50,448 [main][MJParser.java:640] : #2 program
+INFO  2013-08-17 08:10:50,448 [main][MJParser.java:640] : #44 Test8
+INFO  2013-08-17 08:10:50,449 [main][MJParser.java:640] : #4 class
+INFO  2013-08-17 08:10:50,449 [main][MJParser.java:2746] : Pocetak programa Test8 na liniji 1
+INFO  2013-08-17 08:10:50,453 [main][MJParser.java:640] : #44 A
+INFO  2013-08-17 08:10:50,453 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:50,453 [main][MJParser.java:2335] : Deklarisana klasa A na liniji 3
+INFO  2013-08-17 08:10:50,453 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:50,453 [main][MJParser.java:640] : #44 x
+INFO  2013-08-17 08:10:50,454 [main][MJParser.java:640] : #41 ,
+INFO  2013-08-17 08:10:50,454 [main][MJParser.java:640] : #41 ,
+INFO  2013-08-17 08:10:50,454 [main][MJParser.java:640] : #44 y
+INFO  2013-08-17 08:10:50,454 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:50,454 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:50,457 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:50,457 [main][MJParser.java:640] : #7 void
+DEBUG 2013-08-17 08:10:50,457 [main][MJParser.java:2519] : Uspesan oporavak od greske na liniji 4 pri definisanju promenjive
+INFO  2013-08-17 08:10:50,458 [main][MJParser.java:640] : #44 main
+INFO  2013-08-17 08:10:50,458 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:50,459 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:50,459 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:50,459 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:50,459 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:50,459 [main][MJParser.java:2780] : Broj globalnih prostih promenjivih:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2781] : Broj globalnih nizova:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2782] : Broj globalnih konstanti:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2783] : Broj unutrasnjih klasa:1
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2784] : Broj iskaza u main-u:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2785] : Broj poziva metoda u main-u:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2786] : Broj blokova naredbi:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2787] : Broj funkcija glavnog programa:1
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2788] : Broj funkcija unutrasnjih klasa:0
+INFO  2013-08-17 08:10:50,460 [main][MJParser.java:2789] : Broj naredbi kreiranja instanci unutrasnjih klasa:0
+INFO  2013-08-17 08:10:50,461 [main][MJParser.java:2790] : Broj pristupa clanovima natklase preko kljucne reci super:0
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type string: , -1, -1 
+Type bool: , -1, -1 
+Prog Test8: notype, 0, 1 
+   Type A: Class [Fld @vtable: notype, 0, 1 Fld x: int, 1, 1 ], 1000, 0 
+   Meth main: notype, 8, 0 
+
+
+

@@ -1,0 +1,1 @@
+program Test11void m() {		print('B');	}{	void main() A x; {		m();		}}

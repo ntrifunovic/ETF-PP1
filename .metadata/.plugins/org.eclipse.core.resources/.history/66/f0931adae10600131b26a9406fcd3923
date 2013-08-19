@@ -1,0 +1,10 @@
+program ProgramC
+      class A{
+            int x[],y[];
+      }
+      const int pi = 3, e = 2;
+      class B extends A{
+            int i; int z[];
+            int getValue(int a) int b; bool c;
+            { return this.i + this.x[0] + a; }
+      }

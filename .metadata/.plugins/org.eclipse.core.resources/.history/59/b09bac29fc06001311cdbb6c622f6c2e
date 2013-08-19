@@ -1,0 +1,24 @@
+program Test12
+
+class A {
+int x;
+}
+
+A v;
+
+{
+	void main() int i; char c; {
+		i = 0;
+		
+		v = new A;
+		
+		while(false || 3 > 1 || true ) {
+			print(x[i]);
+			i++;
+			if(true && i == 4)
+				break;
+		}
+		
+	}
+
+}

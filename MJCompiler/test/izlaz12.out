@@ -1,0 +1,87 @@
+INFO  2013-08-17 08:10:52,210 [main][MJParser.java:668] : Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program12.mj
+INFO  2013-08-17 08:10:52,228 [main][MJParser.java:640] : #2 program
+INFO  2013-08-17 08:10:52,228 [main][MJParser.java:640] : #44 Test12
+INFO  2013-08-17 08:10:52,228 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:52,228 [main][MJParser.java:2746] : Pocetak programa Test12 na liniji 1
+INFO  2013-08-17 08:10:52,230 [main][MJParser.java:640] : #7 void
+INFO  2013-08-17 08:10:52,230 [main][MJParser.java:640] : #44 main
+INFO  2013-08-17 08:10:52,231 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #44 int
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #44 i
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #44 char
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #44 c
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:52,232 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:52,234 [main][MJParser.java:640] : #13 while
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #47 false
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #25 ||
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #43 3
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #32 >
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #43 1
+INFO  2013-08-17 08:10:52,235 [main][MJParser.java:640] : #25 ||
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #47 true
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #34 {
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #26 print
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #44 i
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:52,236 [main][MJParser.java:948] : Koriscenje identifikatora i na liniji 7
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #44 i
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #22 ++
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:948] : Koriscenje identifikatora i na liniji 8
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #11 if
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #39 (
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #47 true
+INFO  2013-08-17 08:10:52,237 [main][MJParser.java:640] : #24 &&
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #44 i
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #28 ==
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:948] : Koriscenje identifikatora i na liniji 9
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #43 4
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #40 )
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #15 break
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #38 ;
+INFO  2013-08-17 08:10:52,238 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:52,239 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:52,239 [main][MJParser.java:640] : #35 }
+INFO  2013-08-17 08:10:52,239 [main][MJParser.java:2780] : Broj globalnih prostih promenjivih:0
+INFO  2013-08-17 08:10:52,239 [main][MJParser.java:2781] : Broj globalnih nizova:0
+INFO  2013-08-17 08:10:52,239 [main][MJParser.java:2782] : Broj globalnih konstanti:0
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2783] : Broj unutrasnjih klasa:0
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2784] : Broj iskaza u main-u:5
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2785] : Broj poziva metoda u main-u:0
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2786] : Broj blokova naredbi:1
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2787] : Broj funkcija glavnog programa:1
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2788] : Broj funkcija unutrasnjih klasa:0
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2789] : Broj naredbi kreiranja instanci unutrasnjih klasa:0
+INFO  2013-08-17 08:10:52,240 [main][MJParser.java:2790] : Broj pristupa clanovima natklase preko kljucne reci super:0
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type string: , -1, -1 
+Type bool: , -1, -1 
+Prog Test12: notype, 0, 1 
+   Meth main: notype, 0, 0 
+      Var i: int, 0, 1 
+      Var c: char, 1, 1 
+
+
+
+INFO  2013-08-17 08:10:52,241 [main][MJParser.java:681] : Generating bytecode file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program12.obj
+INFO  2013-08-17 08:10:52,241 [main][MJParser.java:686] : Parsiranje uspesno zavrseno!

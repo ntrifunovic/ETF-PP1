@@ -1,0 +1,9 @@
+program Test4
+
+{	
+	void main() int x[];  {
+	
+		print(x[2 - ]);
+	
+	}
+}

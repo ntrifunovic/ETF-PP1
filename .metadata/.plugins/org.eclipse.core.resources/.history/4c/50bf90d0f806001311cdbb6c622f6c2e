@@ -1,0 +1,26 @@
+program Test10
+
+class A {
+int x;
+}
+
+A v;
+
+void test() {
+
+}
+
+{
+	void main() int i; char c; {
+		
+		v = new A;
+		v.x = 3;
+		
+		print(v.x);
+		
+		test(3);
+		test();
+		
+	}
+
+}

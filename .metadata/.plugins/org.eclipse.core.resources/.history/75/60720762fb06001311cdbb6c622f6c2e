@@ -1,0 +1,17 @@
+program Test11
+
+
+
+{
+
+
+int m(int i) {
+		print(i);
+	}
+	
+	void main() A x; {
+		m(3);
+	
+	}
+
+}

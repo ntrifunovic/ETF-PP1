@@ -1,0 +1,5 @@
+ERROR 2013-08-17 08:10:49,624 [main][MJParser.java:723] : 
+Sintaksna greska na liniji 5
+ERROR 2013-08-17 08:10:49,630 [main][MJParser.java:723] : 
+Sintaksna greska na liniji 5
+ERROR 2013-08-17 08:10:49,635 [main][MJParser.java:689] : Parsiranje NIJE uspesno zavrseno!

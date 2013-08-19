@@ -1,0 +1,33 @@
+INFO  05:15:29,011 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  05:15:29,036 - #2 program
+INFO  05:15:29,036 - #44 ProgramC
+INFO  05:15:29,036 - #4 class
+INFO  05:15:29,036 - #44 A
+INFO  05:15:29,036 - #34 {
+INFO  05:15:29,036 - #44 int
+INFO  05:15:29,037 - #44 x
+INFO  05:15:29,037 - #36 [
+INFO  05:15:29,037 - #37 ]
+INFO  05:15:29,037 - #41 ,
+INFO  05:15:29,037 - #44 y
+INFO  05:15:29,037 - #36 [
+INFO  05:15:29,037 - #37 ]
+INFO  05:15:29,038 - #38 ;
+INFO  05:15:29,038 - #35 }
+INFO  05:15:29,038 - #3 const
+INFO  05:15:29,038 - #44 int
+INFO  05:15:29,039 - #44 pi
+INFO  05:15:29,039 - #16 =
+INFO  05:15:29,039 - #43 3
+INFO  05:15:29,039 - #41 ,
+INFO  05:15:29,039 - #44 e
+INFO  05:15:29,039 - #16 =
+INFO  05:15:29,040 - #43 2
+INFO  05:15:29,040 - #38 ;
+INFO  05:15:29,040 - #44 int
+INFO  05:15:29,040 - #44 a
+INFO  05:15:29,040 - #16 =
+ERROR 05:15:29,040 - 
+Sintaksna greska na liniji 7
+ERROR 05:15:29,040 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+ERROR 05:15:29,042 - Parsiranje NIJE uspesno zavrseno!

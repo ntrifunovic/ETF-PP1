@@ -1,0 +1,28 @@
+program Test10
+
+void main() int i; char c; {
+		
+		v = new A;
+		v.x = 3;
+		
+		print(v.x);
+		
+		test(3);
+		test();
+		
+	}
+
+{
+	void main() int i; char c; {
+		
+		v = new A;
+		v.x = 3;
+		
+		print(v.x);
+		
+		test(3);
+		test();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+INFO  12:01:17,334 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  12:01:17,420 - #2 program
+INFO  12:01:17,420 - #44 ProgramC
+INFO  12:01:17,420 - #4 class
+INFO  12:01:17,420 - #44 A
+INFO  12:01:17,420 - #34 {
+INFO  12:01:17,421 - #44 int
+INFO  12:01:17,421 - #44 x
+INFO  12:01:17,421 - #36 [
+INFO  12:01:17,421 - #37 ]
+INFO  12:01:17,421 - #41 ,
+INFO  12:01:17,422 - #44 y
+INFO  12:01:17,422 - #36 [
+INFO  12:01:17,422 - #37 ]
+INFO  12:01:17,422 - #38 ;
+INFO  12:01:17,422 - #35 }
+INFO  12:01:17,422 - #3 const

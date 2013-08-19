@@ -1,0 +1,4 @@
+ERROR 2013-08-17 08:10:48,790 [main][MJParser.java:769] : Greska na liniji 11:promenjiva Test ne postoji
+ERROR 2013-08-17 08:10:48,791 [main][MJParser.java:723] : 
+Sintaksna greska na liniji 11
+ERROR 2013-08-17 08:10:48,796 [main][MJParser.java:689] : Parsiranje NIJE uspesno zavrseno!

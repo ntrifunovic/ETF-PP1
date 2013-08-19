@@ -1,0 +1,13 @@
+program Test8
+
+class A extend G R E S K A {
+	int x, y;
+
+}
+
+{	
+	void main() {
+	
+	
+	}
+}

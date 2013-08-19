@@ -1,0 +1,187 @@
+INFO  14:00:00,384 - Compiling source file: /Users/ntrifunovic/Dropbox/IR4PP1/Projekat/MJCompiler/test/program.mj
+INFO  14:00:00,423 - #2 program
+INFO  14:00:00,423 - #44 ProgramC
+INFO  14:00:00,423 - #4 class
+INFO  14:00:00,423 - #44 A
+INFO  14:00:00,423 - #34 {
+INFO  14:00:00,423 - #44 int
+INFO  14:00:00,424 - #44 x
+INFO  14:00:00,424 - #36 [
+INFO  14:00:00,424 - #37 ]
+INFO  14:00:00,424 - #41 ,
+INFO  14:00:00,424 - #44 y
+INFO  14:00:00,424 - #36 [
+INFO  14:00:00,424 - #37 ]
+INFO  14:00:00,424 - #38 ;
+INFO  14:00:00,424 - #35 }
+INFO  14:00:00,424 - #3 const
+INFO  14:00:00,425 - #44 int
+INFO  14:00:00,425 - #44 pi
+INFO  14:00:00,425 - #16 =
+INFO  14:00:00,425 - #43 3
+INFO  14:00:00,425 - #41 ,
+INFO  14:00:00,426 - #44 e
+INFO  14:00:00,426 - #16 =
+INFO  14:00:00,426 - #43 2
+INFO  14:00:00,426 - #38 ;
+INFO  14:00:00,426 - #44 int
+INFO  14:00:00,426 - #44 a
+INFO  14:00:00,426 - #38 ;
+INFO  14:00:00,428 - #4 class
+INFO  14:00:00,428 - #44 B
+INFO  14:00:00,428 - #5 extends
+INFO  14:00:00,428 - #44 A
+INFO  14:00:00,428 - #34 {
+INFO  14:00:00,428 - #44 int
+INFO  14:00:00,429 - #44 i
+INFO  14:00:00,429 - #38 ;
+INFO  14:00:00,429 - #44 int
+INFO  14:00:00,429 - #44 z
+INFO  14:00:00,429 - #36 [
+INFO  14:00:00,429 - #37 ]
+INFO  14:00:00,429 - #38 ;
+INFO  14:00:00,429 - #44 int
+INFO  14:00:00,429 - #44 getValue
+INFO  14:00:00,429 - #39 (
+INFO  14:00:00,429 - #44 int
+INFO  14:00:00,430 - #44 a
+INFO  14:00:00,430 - #40 )
+INFO  14:00:00,430 - #44 int
+INFO  14:00:00,430 - #44 b
+INFO  14:00:00,430 - #38 ;
+INFO  14:00:00,430 - #44 bool
+INFO  14:00:00,430 - #44 c
+INFO  14:00:00,430 - #38 ;
+INFO  14:00:00,430 - #34 {
+INFO  14:00:00,430 - #6 return
+INFO  14:00:00,431 - #9 this
+INFO  14:00:00,431 - #42 .
+INFO  14:00:00,431 - #44 i
+INFO  14:00:00,431 - #17 +
+INFO  14:00:00,431 - Koriscenje polja i na liniji 12
+INFO  14:00:00,431 - #9 this
+INFO  14:00:00,431 - #42 .
+INFO  14:00:00,431 - #44 x
+INFO  14:00:00,431 - #36 [
+INFO  14:00:00,431 - Koriscenje polja x na liniji 12
+INFO  14:00:00,431 - #43 0
+INFO  14:00:00,431 - #37 ]
+INFO  14:00:00,432 - #17 +
+INFO  14:00:00,432 - #44 a
+INFO  14:00:00,432 - #38 ;
+INFO  14:00:00,432 - Koriscenje identifikatora a na liniji 12
+INFO  14:00:00,432 - #35 }
+INFO  14:00:00,432 - #35 }
+INFO  14:00:00,432 - #4 class
+INFO  14:00:00,432 - #44 C
+INFO  14:00:00,433 - #5 extends
+INFO  14:00:00,433 - #44 B
+INFO  14:00:00,433 - #34 {
+INFO  14:00:00,433 - #44 A
+INFO  14:00:00,433 - #44 theA
+INFO  14:00:00,433 - #38 ;
+INFO  14:00:00,433 - #44 string
+INFO  14:00:00,433 - #44 a
+INFO  14:00:00,433 - #38 ;
+INFO  14:00:00,433 - #44 int
+INFO  14:00:00,434 - #44 getValue
+INFO  14:00:00,434 - #39 (
+INFO  14:00:00,434 - #44 int
+INFO  14:00:00,434 - #44 a
+INFO  14:00:00,434 - #40 )
+INFO  14:00:00,434 - #34 {
+INFO  14:00:00,434 - #6 return
+INFO  14:00:00,434 - #10 super
+INFO  14:00:00,434 - #42 .
+INFO  14:00:00,434 - #44 getValue
+INFO  14:00:00,434 - #39 (
+INFO  14:00:00,435 - Koriscenje polja super.getValue na liniji 19
+INFO  14:00:00,435 - #44 a
+INFO  14:00:00,435 - #40 )
+INFO  14:00:00,435 - Koriscenje identifikatora a na liniji 19
+INFO  14:00:00,435 - #17 +
+INFO  14:00:00,435 - #44 theA
+INFO  14:00:00,435 - #38 ;
+INFO  14:00:00,435 - Koriscenje identifikatora theA na liniji 19
+INFO  14:00:00,435 - #35 }
+INFO  14:00:00,435 - #35 }
+INFO  14:00:00,436 - #34 {
+INFO  14:00:00,436 - #44 int
+INFO  14:00:00,436 - #44 TEST
+INFO  14:00:00,436 - #39 (
+INFO  14:00:00,436 - #40 )
+INFO  14:00:00,436 - #34 {
+INFO  14:00:00,436 - #6 return
+INFO  14:00:00,436 - #43 2
+INFO  14:00:00,436 - #38 ;
+INFO  14:00:00,436 - #35 }
+INFO  14:00:00,437 - #7 void
+INFO  14:00:00,437 - #44 main
+INFO  14:00:00,437 - #39 (
+INFO  14:00:00,437 - #40 )
+INFO  14:00:00,437 - #44 A
+INFO  14:00:00,437 - #44 a
+INFO  14:00:00,437 - #38 ;
+INFO  14:00:00,437 - #44 B
+INFO  14:00:00,437 - #44 b
+INFO  14:00:00,438 - #38 ;
+INFO  14:00:00,438 - #44 C
+INFO  14:00:00,438 - #44 c
+INFO  14:00:00,438 - #38 ;
+INFO  14:00:00,438 - #44 int
+INFO  14:00:00,438 - #44 i
+INFO  14:00:00,438 - #38 ;
+INFO  14:00:00,438 - #44 int
+INFO  14:00:00,438 - #44 x
+INFO  14:00:00,439 - #36 [
+INFO  14:00:00,439 - #37 ]
+INFO  14:00:00,439 - #38 ;
+INFO  14:00:00,439 - #44 char
+INFO  14:00:00,439 - #44 y
+INFO  14:00:00,439 - #36 [
+INFO  14:00:00,439 - #37 ]
+INFO  14:00:00,439 - #38 ;
+INFO  14:00:00,440 - #34 {
+INFO  14:00:00,440 - #44 i
+INFO  14:00:00,440 - #16 =
+INFO  14:00:00,440 - Koriscenje identifikatora i na liniji 32
+INFO  14:00:00,440 - #43 3
+INFO  14:00:00,440 - #38 ;
+INFO  14:00:00,440 - #14 do
+INFO  14:00:00,440 - #34 {
+INFO  14:00:00,441 - #44 i
+INFO  14:00:00,441 - #22 ++
+INFO  14:00:00,441 - Koriscenje identifikatora i na liniji 35
+INFO  14:00:00,441 - #38 ;
+INFO  14:00:00,441 - #26 print
+INFO  14:00:00,441 - #39 (
+INFO  14:00:00,441 - #44 i
+INFO  14:00:00,441 - #41 ,
+INFO  14:00:00,441 - Koriscenje identifikatora i na liniji 36
+INFO  14:00:00,442 - #44 i
+ERROR 14:00:00,442 - 
+Sintaksna greska na liniji 36
+INFO  14:00:00,442 - #40 )
+INFO  14:00:00,442 - #38 ;
+INFO  14:00:00,442 - #35 }
+INFO  14:00:00,443 - #13 while
+INFO  14:00:00,443 - #39 (
+DEBUG 14:00:00,444 - Uspesan oporavak od greske na liniji 36
+INFO  14:00:00,444 - #44 i
+INFO  14:00:00,444 - #30 <
+INFO  14:00:00,444 - Koriscenje identifikatora i na liniji 37
+INFO  14:00:00,444 - #43 10
+INFO  14:00:00,445 - #40 )
+INFO  14:00:00,445 - #38 ;
+INFO  14:00:00,445 - #35 }
+INFO  14:00:00,445 - #35 }
+INFO  14:00:00,445 - Broj globalnih prostih promenjivih:1
+INFO  14:00:00,446 - Broj globalnih nizova:0
+INFO  14:00:00,446 - Broj globalnih konstanti:2
+INFO  14:00:00,446 - Broj unutrasnjih klasa:3
+INFO  14:00:00,446 - Broj iskaza u main-u:3
+INFO  14:00:00,446 - Broj poziva metoda u main-u:0
+INFO  14:00:00,446 - Broj blokova naredbi:0
+INFO  14:00:00,446 - Broj funkcija glavnog programa:2
+INFO  14:00:00,446 - Broj funkcija unutrasnjih klasa:2
+ERROR 14:00:00,448 - Parsiranje NIJE uspesno zavrseno!
